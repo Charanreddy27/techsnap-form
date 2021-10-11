@@ -201,6 +201,10 @@ body {
   .Ham {
     display: block;
   }
+  .form{
+    width: 80%;
+  }
+  
  
 }
 @media (max-width: 416px)  {
@@ -355,6 +359,7 @@ label{
   .adds {
         margin-bottom: 20px;
   }
+  
 }
 @media (max-width: 750px) {
   .Hero_section {
@@ -401,6 +406,7 @@ label{
   .Social-media {
     width: 50%;
   }
+  
 }
 
 
@@ -607,10 +613,13 @@ label{
       .wrapper .form .inputfield{
         flex-direction: column;
         align-items: flex-start;
+        
       }
       .wrapper{
         margin-bottom: 10%;
       }
+     
+      
 
       .wrapper .form .inputfield label{
         margin-bottom: 5px;
@@ -618,4 +627,14 @@ label{
       .wrapper .form .inputfield.terms{
         flex-direction: row;
       }
+    }
+    @media only screen and (max-width:750px){
+      .wrapper .form{
+        width: 90%;
+      }
+      .mb-5 ul li i{
+        width: 50px;
+        padding-left: 10px;
+      }
+
     }
