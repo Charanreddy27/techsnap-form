@@ -156,7 +156,7 @@
                         <label>Gender</label>
                         <div class="custom_select">
                           <select>
-                            <option value="">Select</option>
+                            <option disabled selected value="0">Select</option>
                             <option value="male">Male</option>
                             <option value="female">Female</option>
                           </select>
@@ -215,21 +215,23 @@
                  <p>How did they hear about us:</p>
                 <div class="inputfield">
                 <div>
-               <input type="checkbox" id="scales" name="scales" checked>
+               <input type="radio" id="scales" name="scales" checked>
               <label for="scales">Linkedin</label>
               </div>
               <div>
-              <input type="checkbox" id="horns" name="horns">
+              <input type="radio" id="horns" name="scales">
               <label for="horns">Facebook</label>
               </div>
               <div>
-                <input type="checkbox" id="horns" name="horns">
+                <input type="radio" id="horns" name="scales">
                 <label for="horns">Instagram</label>
                 </div>
                 <div>
-                  <input type="checkbox" id="horns" name="horns">
+                  <input type="radio" id="horns" name="scales">
                   <label for="horns">Others</label>
                   </div>
+                  <label >If selected other mention</label>
+                  <input type="text" class="input" value="" required>
                 </div>
                 <br> 
                      <!-- <div class="inputfield">
@@ -237,7 +239,7 @@
                       <input type="text" class="input">
                    </div> 
                    <br>
-                   <br>
+                   <br> -->
                   
                    <div class="inputfield">
                     <label>Current City</label>
@@ -249,7 +251,7 @@
                      <div class="inputfield">
                         <label>Postal Code</label>
                         <input type="text" class="input">
-                     </div>  -->
+                     </div>  
                      <div class="inputfield mb-4">
                       <label>Available date:</label>
 
