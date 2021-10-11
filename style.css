@@ -621,9 +621,9 @@ label{
      
       
 
-      .wrapper .form .inputfield label{
+      /* .wrapper .form .inputfield label{
         margin-bottom: 5px;
-      }
+      } */
       .wrapper .form .inputfield.terms{
         flex-direction: row;
       }
