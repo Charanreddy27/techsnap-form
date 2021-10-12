@@ -636,5 +636,10 @@ label{
         width: 50px;
         padding-left: 10px;
       }
-
+      .add{
+        padding-left: 10px;
+      }
+      .adds{
+        text-align: center;
+      }
     }
