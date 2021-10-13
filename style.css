@@ -488,12 +488,12 @@ label{
     .wrapper .form .inputfield .input,
     .wrapper .form .inputfield .textarea{
       width: 100%;
-      outline: none;
+      /* outline: none; */
       border: 1px solid #d5dbd9;
       font-size: 15px;
       padding: 8px 10px;
       border-radius: 3px;
-      transition: all 0.3s ease;
+      /* transition: all 0.3s ease; */
     }
     
     .wrapper .form .inputfield .textarea{
